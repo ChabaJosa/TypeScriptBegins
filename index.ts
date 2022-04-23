@@ -3,11 +3,15 @@
 //
 //  Requirements:
 //      -Requires Global Install of TS
-//      -To run with TS compiler use `tsc index.ts` instead of `node index.ts`
+//      -To run with TS compiler use `tsc index.ts` instead of `node index.ts`, this will 
+//       compile your TS file and create an index.js version with whatever ES version is 
+//       set up in the compiler.
 //
 //  Notes:
 //      -IF you run `tsc --watch index.ts` it will check for errors on every saved change 
 //       and give you input on the terminal
+//      -Running `tsc --init` in your Root Folder will create a tsconfig,json which carries
+//       the configuration for your TS project.
 //
 //  Examples:
 //
